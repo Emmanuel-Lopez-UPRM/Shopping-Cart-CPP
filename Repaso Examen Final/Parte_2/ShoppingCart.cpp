@@ -21,6 +21,6 @@ void ShoppingCart :: GetDate(){
 }
  void ShoppingCart :: AddItem(int value){
     for (int i = 0; i<value; i++ ){ 
-     
+     cartItems[i];
     }
 }
