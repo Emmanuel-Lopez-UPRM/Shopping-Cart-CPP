@@ -18,13 +18,13 @@ public:
  
     string setName(string); 
     string setDescription(string);
-    int setPrice(int);
+    int setPrice(int) ;
     int setQuantity(int);
     string getName();
     string getDescription();
     int getPrice();
-    int getQuantity();
-    void totalCost(ItemToPurchase &I, ItemToPurchase &J);
+    int getQuantity() ;
+    void friend totalCost(ItemToPurchase &I, ItemToPurchase &J);
     void PrintItemCost(ItemToPurchase &I);
     void PrintItemDescription(); 
 

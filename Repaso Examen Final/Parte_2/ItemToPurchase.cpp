@@ -11,7 +11,7 @@ ItemToPurchase :: ItemToPurchase( string Ditemname, string DitemDescription, int
 ItemToPurchase::ItemToPurchase(string Ditemname, int DitemPrice, int DitemQuantity){   
     itemName = Ditemname;
     itemPrice =  DitemPrice;
-    itemQuantity = DitemQuantity;
+    itemQuantity = DitemQuantity; 
 }
 ItemToPurchase::ItemToPurchase(/* args */){
     itemName = "none"; 
@@ -33,7 +33,7 @@ int ItemToPurchase :: setPrice(int value){
 }
 
 int ItemToPurchase :: setQuantity(int value){ 
-    
+    itemQuantity = value; 
     return itemQuantity; 
 }
 string ItemToPurchase :: getName(){ 
@@ -42,7 +42,7 @@ return itemName;
 string ItemToPurchase ::  getDescription(){ 
     return itemDescription; 
 }
-int ItemToPurchase :: getPrice(){
+int ItemToPurchase :: getPrice() {
     return itemPrice;
 }
 int ItemToPurchase :: getQuantity(){ 
