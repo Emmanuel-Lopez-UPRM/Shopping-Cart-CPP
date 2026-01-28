@@ -1,9 +1,14 @@
+//Emmanuel López Bonet - UPRM 
+//Archivo Header para el Examen Final - Introducion a Programacion II. 
+// Este archivo contiene todo los prototipos necesarios y la clase con sus variables privadas. 
+// ifdef para evitar que se defina multiple veces, si ya esta añadido en un programa. 
 #ifndef ITEMTOPURCHASE_H
 #define ITEMTOPURCHASE_H
 #include<iostream>
 #include<string>
 
 using namespace std; 
+// La Clase con sus variables privadads y sus funciones prototipo 
 class ItemToPurchase
 {
 private:
@@ -12,6 +17,7 @@ private:
     int itemPrice;
     int itemQuantity;  
 public: 
+//Prototipo de funciones. 
     ItemToPurchase(string , string, int, int);
     ItemToPurchase(string, int, int); 
     ItemToPurchase(); //Default Constructor
