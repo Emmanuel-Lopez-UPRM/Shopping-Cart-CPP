@@ -1,6 +1,7 @@
 #include "ShoppingCart.h"
 #include <iostream> 
 #include <string> 
+#include"limits"
 using  namespace std;
 
   
@@ -21,6 +22,7 @@ using  namespace std;
         cout << "Enter item Price\n"; 
         cin >> price; 
         item.setPrice(price); 
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << "Enter the item quantity\n"; 
         cin >> quantity; 
         item.setQuantity(quantity); 
