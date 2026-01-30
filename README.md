@@ -20,8 +20,7 @@ This software was developed while studying Computer Science at UPRM. The logic a
 2. Compile the source files: 
    ```bash
    g++ main.cpp ShoppingCart.cpp ItemToPurchase.cpp -o shopping_cart
-```
+  
 3. Execute the program:
    ```bash
     ./shopping_cart
-```
